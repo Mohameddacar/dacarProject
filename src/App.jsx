@@ -8,6 +8,8 @@ import Image from './components/Image'
 import Navber from './layout/Navber'
 import Banner from './layout/Banner'
 import Services from './layout/Services'
+import About from './layout/About'
+import ProgressbarSection from './layout/ProgressbarSection'
 
 const App = () => {
   return (
@@ -15,6 +17,8 @@ const App = () => {
     <Navber />
     <Banner />
     <Services />
+    <About />
+    <ProgressbarSection />
     </>
   )
 }
