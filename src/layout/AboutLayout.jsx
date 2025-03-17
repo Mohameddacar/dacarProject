@@ -7,7 +7,7 @@ import About2 from '../assets/About2.png'
 import SubHeading from '../components/SubHeading'
 import Heading from '../components/Heading'
 import Button from '../components/Button'
-const About = () => {
+const AboutLayout = () => {
   return (
     <section className='py-[80px]'>
         <Container>
@@ -39,4 +39,4 @@ const About = () => {
   )
 }
 
-export default About
+export default AboutLayout

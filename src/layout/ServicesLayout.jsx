@@ -8,7 +8,7 @@ import serviceImageThree from '../../public/webdesign.png'
 import SubHeading from '../components/SubHeading'
 import Heading from '../components/Heading'
 
-const Services = () => {
+const ServicesLayout = () => {
   return (
     <section className='pt-[220px] pb-[120px]'>
         <Container>
@@ -25,4 +25,4 @@ const Services = () => {
   )
 }
 
-export default Services
+export default ServicesLayout

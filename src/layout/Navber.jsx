@@ -5,6 +5,7 @@ import Image from '../components/Image'
 import Logo from '../assets/logo.png'
 import Lists from '../components/Lists'
 import Button from '../components/Button'
+import { Link } from 'react-router-dom'
 const Navber = () => {
   return (
     <section className='py-[18px]'>
@@ -15,15 +16,16 @@ const Navber = () => {
                 </div>
                 <div  className='w-6/12 justify-center'>
                 <ul className='flex gap-x-12'>
-                <Lists text='Home' />
-                <Lists text='Pages' />
-                <Lists text='Services' />
-                <Lists text='Blog' />
-                <Lists text='Contact' />
+                  <Link to='/'><Lists text='Home' /></Link>
+                  <Link to='/about'><Lists text='About' /></Link>
+                  <Link to='/services'><Lists text='Services' /></Link>
+                  <Link to='/blog'><Lists text='Blog' /></Link>
+                  <Link to='/contact'><Lists text='Contact' /></Link>              
                 </ul>
                 </div>
                 <div  className='w-3/12 text-end'>
-                <Button text="Download CV" />
+                <Link to='/about'><Button text="Download CV" /></Link>
+                
                 </div>
                 </Flex>
         </Container>
