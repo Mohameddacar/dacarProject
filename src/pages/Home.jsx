@@ -5,6 +5,9 @@ import ServicesLayout from '../layout/ServicesLayout'
 import AboutLayout from '../layout/AboutLayout'
 import ProgressbarSection from '../layout/ProgressbarSection'
 import Project from '../layout/Project'
+import Clients from '../layout/Clients'
+import Contact from '../layout/Contact'
+import Footer from '../layout/Footer'
 
 const Home = () => {
   return (
@@ -15,6 +18,9 @@ const Home = () => {
     <AboutLayout />
     <ProgressbarSection />
     <Project />
+    <Clients/>
+    <Contact />
+    <Footer />
     </>
   )
 }

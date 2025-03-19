@@ -6,10 +6,11 @@ import SubHeading from '../components/SubHeading'
 import { FaArrowRightLong } from "react-icons/fa6";
 import { GoArrowLeft } from "react-icons/go";
 import ProjectCard from '../components/ProjectCard'
+import Button from '../components/Button'
 
 const Project = () => {
   return (
-    <section className='py-[120px]'>
+    <section className='py-[120px] !pb-[20px]'>
         <Container>
             <Flex className='justify-between items-center'>
                 <div>
@@ -27,6 +28,9 @@ const Project = () => {
                 <ProjectCard  text1='Mobile App' text2='Graphic Design Campaign For George’s Cafe' text3='Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry.' text4='View Case Studies'/>
                 <ProjectCard  text1='Web Development' text2='Web Development Campaign For George’s Cafe' text3='Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry.' text4='View Case Studies'/>
             </Flex>
+            <div className='text-center p-10'>
+                <Button text='Explore More'/>
+            </div>
         </Container>
     </section>
   )
