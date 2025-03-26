@@ -26,7 +26,7 @@ const Contact = () => {
                     <Input placeholder='Enter Email'/>
                     <Input placeholder='Enter Phone'/>
                     <Input placeholder='Enter Subject'/>
-                    <Input placeholder='Enter Message'/>
+                   
                 </Flex>
                 <Button className='' text='Contact Us' />
                 </div>
