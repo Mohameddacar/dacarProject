@@ -10,12 +10,12 @@ import Button from '../components/Button'
 
 const Project = () => {
   return (
-    <section className='py-[120px] !pb-[20px]'>
+    <section className='py-[120px] !pb-[20px] px-3 md:px-0'>
         <Container>
-            <Flex className='justify-between items-center'>
+            <Flex className='justify-between items-center !block md:!flex'>
                 <div>
                     <Heading  className='!text-left' text='Recent Projects'/>
-                    <SubHeading className='!text-left' text='My Recent Projects'/>
+                    <SubHeading className='!text-left md:text-[52px] text-[32px] pb-5 md:pb-0' text='My Recent Projects'/>
                 </div>
                 
                 <Flex className='gap-x-5'>
@@ -23,7 +23,7 @@ const Project = () => {
                 <div className='p-[15px] border border-black'><FaArrowRightLong className='text-black'/></div>
                 </Flex>
             </Flex>
-            <Flex className='justify-between'>
+            <Flex className='justify-between gap-y-5 md:gap-y-0 flex-wrap px-3 md:px-0'>
                 <ProjectCard  text1='Analytics, UI-Ux' text2='Branding & Digital Video Campaign For George’s Cafe' text3='Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry.' text4='View Case Studies'/>
                 <ProjectCard  text1='Mobile App' text2='Graphic Design Campaign For George’s Cafe' text3='Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry.' text4='View Case Studies'/>
                 <ProjectCard  text1='Web Development' text2='Web Development Campaign For George’s Cafe' text3='Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry.' text4='View Case Studies'/>

@@ -54,8 +54,8 @@ const Navber = () => {
           }</div>
         </Flex>
         {
-          open && <ul className='absolute top-[78px] left-0 z-40 w-full bg-blue-500 flex flex-col justify-center items-center py-14 gap-y-12 font-pop font-semibold text-white text-lg'>
-          <li>Home</li>
+          open && <ul className={`absolute top-[78px] right-0 z-40 w-full bg-blue-500 flex flex-col justify-center items-center py-14 gap-y-12 font-pop font-semibold text-white text-lg transition-all duration-300 transform w-2/3 h-screen ${open? 'translate-x-0':'translate-x-full'}`}>
+          <li>Home</li> 
           <li>Service</li>
           <li>About</li>
           <li>Blog</li>

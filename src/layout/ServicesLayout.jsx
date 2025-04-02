@@ -10,11 +10,11 @@ import Heading from '../components/Heading'
 
 const ServicesLayout = () => {
   return (
-    <section className='pt-[220px] pb-[120px]'>
+    <section className='pt-[100px] md:pt-[220px] md:pb-[120px] pb-[60px] '>
         <Container>
             <SubHeading text="MY SERVICES" />
-            <Heading text="Provide Wide Range of Digital Services" />
-            <Flex className='justify-between pt-10'>
+            <Heading className='w-auto md:w-[522px] tiext-[30px] md:text-[50upx] md:leading-[60px]'  text="Provide Wide Range of Digital Services" />
+            <Flex className='flex-wrap px-3 sm:px-3 md:px-0 justify-center md:justify-between pt-10'>
            <ServiceCard src={serviceImageOne} title="Ui/Ux Design" body="Dolor repellendus tempo ribus aue quibusdam offi ciis debitis rerum na aibus minima veniam."/>
            <ServiceCard src={serviceImageTwo} title="Mobile Development" body="Dolor repellendus tempo ribus aue quibusdam offi ciis debitis rerum na aibus minima veniam."/>
            <ServiceCard src={serviceImageThree} title="Web Design" body="Dolor repellendus tempo ribus aue quibusdam offi ciis debitis rerum na aibus minima veniam."/>

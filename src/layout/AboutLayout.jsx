@@ -11,13 +11,13 @@ const AboutLayout = () => {
   return (
     <section className='py-[80px]'>
         <Container>
-               <Flex>
-               <div className='w-1/2'>
-                <Flex className='justify-between'>
-                <Image src={About1} />
+               <Flex className='!block md:!flex'>
+               <div className='md:w-1/2'>
+                <Flex className='justify-between !block md:!flex'>
+                <Image className='pb-5 md:pb-0 w-[80%] mx-auto' src={About1} />
                <div>
-                <Image className='pb-[30px]' src={About2} />
-                <Image src={About2} />
+                <Image className='pb-[30px] w-[80%] mx-auto' src={About2} />
+                <Image className='w-[80%] mx-auto' src={About2} />
                 </div>
                 </Flex>
                </div>
@@ -25,7 +25,7 @@ const AboutLayout = () => {
                <div className='w-1/2 ' >
                <div className='px-[30px]'>
                <SubHeading className='!text-left' text="About Me"/>
-               <Heading className='!text-left !w-[570px]' text="I Enjoy Solving Problems With Scalable Solutions"/>
+               <Heading className='!text-left md:text-[52px] text-[30px] sm:!w-[348px] md:!w-[570px]' text="I Enjoy Solving Problems With Scalable Solutions"/>
                <p className='pt-[4px] pb-[20px] text-base font-jost font-normal text-[#00413D]'>Quisruam est, qui dolorem ipsum quia dolor sit amet, consecteaur aeci velit, sed quia non numquam eius modi tempora 
                 incidunt lao magnam aliquam quaerat voluptatem reprehenderit.</p>
                 <p className='pb-[30px] text-base font-jost font-normal text-[#00413D]' >Modi tempora incidunt ut lao magnam aliquam quaerat voluptatem reprehenderit non numquam eius.</p>
